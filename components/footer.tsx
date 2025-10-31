@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Phone, Mail, MapPin } from "lucide-react"
+import { Instagram, Facebook, Phone, Mail, MapPin, MessageCircle } from "lucide-react"
 
 export function Footer() {
   return (
@@ -19,6 +19,16 @@ export function Footer() {
               <a href="https://www.facebook.com/fina.diallo.507" target="_blank" rel="noopener">
                 <Facebook className="w-5 h-5" />
               </a>
+
+              <a
+                href="https://wa.me/221778740372"
+                target="_blank"
+                rel="noopener"
+                className="hover:text-green-500 transition-colors"
+              >
+                <MessageCircle className="w-5 h-5" />
+              </a>
+
 
             </div>
           </div>
@@ -91,8 +101,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <a href="tel:0123456789" className="hover:text-accent transition-colors">
-                 +221  77 874 03  72
+                <a href="tel:+221778740372" className="hover:text-accent transition-colors">
+                   +221 77 874 03 72
                 </a>
               </li>
               <li className="flex items-center gap-2">

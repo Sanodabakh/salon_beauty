@@ -11,7 +11,7 @@ export function AboutSection() {
               <img src="/professional-beauty.jpg" alt="Notre équipe" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground p-6 rounded-xl shadow-lg">
-              <p className="text-4xl font-serif font-bold">10+</p>
+              <p className="text-4xl font-serif font-bold">5+</p>
               <p className="text-sm">Ans d'expertise</p>
             </div>
           </div>
