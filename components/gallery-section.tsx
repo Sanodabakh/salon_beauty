@@ -34,8 +34,11 @@ export function GallerySection() {
         <div className="text-center mt-12">
           <p className="text-muted-foreground">
             Suivez-nous sur Instagram{" "}
-            <a href="#" className="text-accent hover:underline font-medium">
-              @elegance.beaute
+            {/* <a href="#" className="text-accent hover:underline font-medium"> */}
+            <a href="https://www.instagram.com/fina__beauty" target="_blank" rel="noopener"
+            className="text-accent hover:underline font-medium">
+                
+              @fina__beauty
             </a>{" "}
             pour plus d'inspirations
           </p>
